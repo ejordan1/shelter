@@ -1,8 +1,8 @@
-.Column{
+.column{
   width: 20%;
   float: left;
 }
-.Column h1{
+.column h1{
   color: blue;
 }
 h1{
@@ -11,7 +11,13 @@ h1{
 .anim {
   font-style: italic;
 }
-.Column .anim {
+.column .anim {
   font-family: cursive;
   color: red;
+}
+
+.column .box {
+  border: 10px solid green;
+  margin: 10px;
+  padding-top: 20px;
 }
