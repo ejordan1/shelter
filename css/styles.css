@@ -1,7 +1,3 @@
-.column{
-  width: 20%;
-  float: left;
-}
 .column h1{
   color: blue;
 }
@@ -24,4 +20,19 @@ h1{
 
 .animalImg {
   width: 150px;
+}
+
+@media screen and (min-width: 700px) {
+  .column{
+    width: 20%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px){
+  .column{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
 }
