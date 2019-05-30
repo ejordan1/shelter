@@ -1,0 +1,17 @@
+.Column{
+  width: 20%;
+  float: left;
+}
+.Column h1{
+  color: blue;
+}
+h1{
+  color: red;
+}
+.anim {
+  font-style: italic;
+}
+.Column .anim {
+  font-family: cursive;
+  color: red;
+}
